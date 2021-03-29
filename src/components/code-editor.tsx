@@ -68,7 +68,7 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
 				editorDidMount={onEditorDidMount}
 				value={initialValue}
 				language='javascript'
-				height='500px'
+				height='100%'
 				theme='dark'
 				options={{
 					wordWrap: 'on',
