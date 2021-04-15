@@ -10,8 +10,6 @@ interface CodeCellProps {
 	cell: Cell;
 }
 
-// id, type, content
-
 export const CodeCell: React.FC<CodeCellProps> = ({ cell }) => {
 	const [code, setCode] = useState('');
 	const [err, setErr] = useState('');
